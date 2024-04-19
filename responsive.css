@@ -96,3 +96,16 @@
         font-size: 18px;
     }
 }
+@media (max-width: 600px) {
+    
+
+    .boda_img img {
+        margin-top: 32px;
+    }
+    .content {
+        width: 85%;
+    }
+    .grid_tarjet {
+        width: 75%;
+    }
+}

@@ -49,7 +49,6 @@ body {
     align-items: center;
     width: 100%;
     height: 400px;
-    background-image: url(/src/imgs/f31768_06275967526a4484856b38df57614139~mv2.webp);
 }
 
 .header_logotype {
@@ -327,6 +326,7 @@ body {
 }
 
 .imgs_container strong {
+    font-weight: 300;
     font-size: 20px;
 }
 
@@ -414,6 +414,10 @@ body {
 
 
 /*FORM*/
+.form_title{
+    color: #701e8c;
+    font-size: 12px;
+}
 
 .grid_form {
     width: 100%;
