@@ -22,7 +22,11 @@ html {
 
 /*header*/
 
-
+.main{
+    margin: auto;
+    position: relative;
+    width: 115%;
+}
 .grid {
     margin: auto;
 }

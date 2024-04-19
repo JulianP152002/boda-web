@@ -17,7 +17,7 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        
+        padding-bottom: 20px;
     }
     .container_content{
         margin-left: 30px;
@@ -31,7 +31,11 @@
         display: flex;
         justify-content: center;
         margin-top: 20px;
-        width: 100%;
+       
+        width: 105%;
+    }
+    .grid_img{
+        height: 440px;
     }
     .img2{
         margin: auto;
@@ -41,11 +45,54 @@
 
 }
 
-@media (max-width: 400px) {
-    .img2{
-        right: 160px;
-    }
+@media (max-width: 600px) {
+
     .grid_img{
-        height: 450px;
+        height: 300px;
+    }
+    .tarjet_content{
+        margin-top: 10px;
+        padding-top: 24px;
+        width: 40%;
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+    .itinerario_imgs{
+        width: 42%;
+    }
+    .main{
+        margin: auto;
+        position: relative;
+        width: 122%;
+    }
+    .main_grid,
+    .container,
+    .caja,
+    .itinerario,
+    .grid_form{
+        width: 114%;
+    }
+    .grid_imgs {
+
+        width: 100%;
+    }
+    .img2{
+        right: 0px;
+    }
+    .caja{
+        font-size: 10px;
+    }
+    .form_form {
+        margin-left: -15px;
+        width: 505px;
+    }
+    .grid_itinerario{
+        font-size: 15px;
+    }
+    .tarjet_container{
+        font-size: 15px;
+    }
+    .boda_content{
+        font-size: 18px;
     }
 }
