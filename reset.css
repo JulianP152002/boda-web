@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    vertical-align: baseline;
+    min-width: 0;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+}
+ul, ol{
+    list-style: none;
+}
+a{  
+    display: block;
+    text-decoration: none;
+    font-family: inherit;
+    display: block;
+    font-size: inherit;
+    color: inherit;
+}
+
+p a{
+    display: inline-block;
+    
+}
+
+img, video, iframe, picture,figure{
+    max-width: 100%;
+
+}
+
+h1, h2, h3, h4{
+    text-wrap: balance;
+}
+
+
+
+h1, h2, h3, h4 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: 40px;
+}
+
+p{
+    text-wrap: pretty;
+}
+
+form, select, button, label, input, textarea{
+    border-style: none;
+    font-family: inherit;
+    display: block;
+    font-size: inherit;
+    color: inherit;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;     
+    height: 5px;
+    border: transparent;
+    background-color: transparent;
+    color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #a4a4a4;
+    border-radius: 4px;
+}
+
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #8f8f8f;
+}
+
+body::-webkit-scrollbar-thumb:active {
+    background-color: #7b7b7b;
+}
+
+body::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+}
+
+
+body::-webkit-scrollbar-track:hover,
+body::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+
+}

@@ -1,0 +1,492 @@
+:root {
+    --color_description: #F5F4F4;
+    --color_title: #701e8c;
+    --bacgroung_color: #798B97;
+    --bacgroud_tarjet: #F5F4F4;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color_primari);
+}
+h1, h2, h3, h4{
+    font-family: 'Birthstone', cursive;
+}
+
+html {
+    font-size: 14px;
+}
+
+
+/*header*/
+
+
+.grid {
+    margin: auto;
+}
+
+.grid_img {
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    height: 550px;
+}
+body {
+    font-family: 'Athiti', sans-serif;
+}
+
+.grid_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-image: url(/src/imgs/f31768_06275967526a4484856b38df57614139~mv2.webp);
+}
+
+.header_logotype {
+    max-width: 400px;
+    max-height: 250px;
+    margin-bottom: 30px
+}
+
+.header_logotype img {
+    width: 100%;
+    height: 100%;
+    border-radius: 150px;
+    transition: all 400ms ease-in-out;
+}
+
+.header_logotype img:hover {
+    box-shadow: 2px 1px 41px 9px rgb(187 22 172);
+    transform: scale(110%)
+}
+
+.header_music {
+    margin-top: 10px;
+}
+
+/*conut down*/
+
+.container_cound {
+    width: 200px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #DCCFE0;
+    display: flex;
+}
+
+.container_content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.content_container {
+    width: 50%;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.content_container h1 {
+    color: var(--color_title);
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content_text {
+    margin-bottom: 15px
+}
+
+.content_count {
+    display: flex;
+    background-color: var(--bacgroung_color);
+    border-radius: 10px;
+    padding: 15px 25px;
+}
+
+.content_days,
+.content_hours,
+.content_minutes,
+.content_second {
+    color: var(--color_description);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.count_number {
+    margin-bottom: 15px;
+}
+
+.content_days,
+.content_hours,
+.content_minutes {
+    margin-right: 35px;
+}
+
+.grid_imgs {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+@keyframes imgs {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.img1,
+.img2 {
+    overflow: hidden;
+    display: block;
+    width: 450px;
+    height: 430px;
+    border-radius: 300px;
+    overflow: hidden;
+
+}
+
+.img1 {
+    z-index: 1;
+}
+
+.img2 {
+    width: 450px;
+    height: 428px;
+    bottom: 36px;
+    right: 185px;
+    display: block;
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    animation: imgs 10s infinite;
+    margin: 0;
+    transition: all 200ms ease;
+}
+
+/*trajeta*/
+.caja{
+    background-color: #DCCFE0;
+}
+
+.tajet {
+    background: var(--bacgroud_tarjet);
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.tarjet_content {
+    width: 50%;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tarjet_img {
+    margin-top: 20px;
+    width: 100px;
+}
+
+.tarjet_imgs {
+    width: 100%;
+}
+
+.boda {
+    font-size: 15px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.boda_title,
+.title_pathers {
+    font-size: 30px;
+    color: var(--color_title);
+}
+.main_pathers p{
+    font-size: 25px;
+}
+
+.boda_content {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    font-size: 22px;
+
+}
+
+.boda_img {
+    width: 480px;
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.boda_img img {
+    margin-top: 10px;
+}
+
+.boda1_img img {
+    width: 100%;
+    height: 100%;
+    fill: aqua;
+}
+.paddin{
+    padding-bottom: 50px;
+}
+
+/*Itinerario*/
+.itinerario{
+    background-color: #DCCFE0;
+    font-size: 25px;
+}
+
+.intinerario_title {
+    font-size: 60px;
+    width: 100%;
+    color: var(--color_title);
+    text-align: center;
+    padding-top: 70px;
+}
+
+.grid_itinerario {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.itinerario_imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 50%;
+    height: 670px;
+    margin-bottom: -20px;
+}
+
+.grid_tarjet {
+    width: 50%;
+}
+.img_itinerario{
+    max-width: 80px;
+    max-height: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.content {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 140%;
+
+}
+
+.imgs_container strong {
+    font-size: 20px;
+}
+
+.tarjet_container {
+    width: 280px;
+    height: 230px;
+    background-color: #e9e5eb;
+    border: 1px solid var(--color_title);
+    -webkit-box-shadow: -1px 6px 24px 3px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: -1px 6px 24px 3px rgba(0, 0, 0, 0.36);
+    box-shadow: -1px 6px 24px 3px rgba(0, 0, 0, 0.36);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5px 50px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    transition: all 300ms ease-in-out;
+}
+
+.tarjet_container:hover {
+    box-shadow: 2px 1px 41px 9px rgb(187 22 172);
+}
+
+.tarjet_container strong {
+    font-weight: 800;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+
+.tarjet_container p {
+    letter-spacing: normal;
+    line-height: 20px;
+    margin-bottom: 20px
+}
+
+.tarjet_container a {
+    font-size: 15px;
+    font-weight: 800;
+    border: none;
+    background: #c4b7d4;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    border-radius: 5px;
+    padding: 3px 0px;
+}
+
+.tarjet_container a:hover {
+    transform: scale(110%);
+}
+
+
+.grid_clo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    background: #F5F4F4;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.clo_container-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.clo_container-img img {
+    max-width: 90px;
+    max-height: 150px;
+}
+
+.clo_pa {
+    font-size: 21px;
+    font-weight: 200;
+}
+
+
+/*FORM*/
+
+.grid_form {
+    width: 100%;
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.form_title{
+    flex-direction: column;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form_form {
+    width: 600px;
+    margin-top: 1rem;
+}
+
+.form_form .input-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input-field {
+    width: 100%;
+    margin: 0rem 0.4rem 0rem 0rem;
+}
+.field .item {
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    background: #EFEFEF;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    margin: 1.2rem 0rem 0rem 1rem;
+}
+.item:invalid:required {
+    border: 2px dashed rgb(166, 38, 168);
+}   
+
+.form_texta {
+    width: 100%;
+    border: none;
+    background: #EFEFEF;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    margin: 1rem 0rem 0rem 1rem;
+    padding: 5px;
+}
+
+::placeholder {
+    font-size: 1.5rem;
+}
+
+.form_button{
+    margin: auto;
+    display: flex;
+    font-size: 15px;
+    font-weight: 800;
+    border: none;
+    background: #773b80;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-top: 20px;
+}
+.form_button:hover{
+    transform: scale(110%);
+}
