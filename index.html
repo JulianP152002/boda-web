@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="responsive.css">
-    <title>Document</title>
+    <link rel="icon" type="image/svg+xml" href="/accents/imgs/imgheader.jpeg"/>
+    <title>Invitacion Boda</title>
 </head>
 
 <body>
@@ -198,22 +199,19 @@
             </div>
             <h1>Confirma tu Asistencia</h1>
             <div class="container_form">
-                <form
-                    action="https://script.google.com/macros/s/AKfycbwa-5sjeSXWTGK_xD9fK_wpV3CySirNZdJyVyVwqJvbRqoh6dIVwiM1bYeggvL9l7oThw/exec"
-                    class="form_form" method="POST" name="contact-form" data-form>
+                <form action="https://script.google.com/macros/s/AKfycbwlx_TvNxTC21aOa5r07uDroswrcL0-4I3NpOXi5MVZZjNUI-Z3MoM_3OFSKq7vEm9_/exec" class="form_form" method="POST" name="contact-form">
                     <div class="input-box">
                         <div class="input-field field">
-                            <input data-name required name="name" class="item" type="text" placeholder="Nombres" />
+                            <input required name="your-name" class="item" type="text" placeholder="Nombres" />
                         </div>
 
                         <div class="input-field field">
-                            <input class="item" type="tel" required name="tel" placeholder="Numero Telefonico" />
+                            <input class="item" type="tel" required name="your-number" placeholder="Numero Telefonico" />
                         </div>
                     </div>
                     <div class="input-box">
                         <div class="input-field field">
                             <select name="confirmacion" required class="item">
-                                <option value="value2" selected>Confirmacion</option>
                                 <option value="si">Si, Asisteremos</option>
                                 <option value="no">No,No Asisteremos</option>
                             </select>
@@ -221,17 +219,16 @@
                     </div>
 
                     <div class="textarea-field field">
-                        <textarea class="form_texta" required name="text" cols="30" rows="10"
-                            placeholder="Mensaje Para Los Novios">
-                </textarea>
+                        <textarea class="form_texta" required name="message" cols="30" rows="10" placeholder="Mensaje Para Los Novios"></textarea>
                     </div>
 
-                    <input class="form_button" id="submit" type="submit"></input>
+                    <input class="form_button" id="submit" value="Submit" type="submit"></input>
                 </form>
             </div>
         </section>
     </div>
 <script src="script.js"></script>
+<script src="main.js"></script>
 </body>
 
 </html>
