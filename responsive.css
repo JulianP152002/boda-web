@@ -65,13 +65,8 @@
         position: relative;
         width: 122%;
     }
-    .main_grid,
-    .container,
-    .caja,
-    .itinerario,
-    .grid_form{
-        width: 114%;
-    }
+
+    
     .grid_imgs {
 
         width: 100%;
