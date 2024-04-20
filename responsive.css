@@ -106,7 +106,7 @@
         width: 85%;
     }
     .grid_tarjet {
-        width: 75%;
+        width: 60%;
     }
 }
 
@@ -138,5 +138,13 @@
         max-width: 400px;
 
     }
+
+}
+@media (max-width: 340px) {
+
+    .grid_header{
+        height: 250px;
+    }
+
 
 }
