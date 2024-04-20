@@ -20,6 +20,7 @@ body{
     text-rendering: optimizeSpeed;
     scroll-behavior: smooth;
     min-height: 100vh;
+    min-width: min-content;
 }
 ul, ol{
     list-style: none;

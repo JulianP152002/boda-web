@@ -13,6 +13,10 @@
 
 
 @media (max-width: 900px){
+    .grid_header {
+
+        height: 349px;
+    }
     .container{
         height: 100%;
         display: flex;
@@ -48,6 +52,8 @@
 @media (max-width: 600px) {
 
     .grid_img{
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 300px;
     }
     .tarjet_content{
@@ -99,7 +105,7 @@
         height: 350px;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     
 
     .boda_img img {
@@ -135,7 +141,7 @@
 @media (max-width: 380px) {
 
     .grid_header{
-        height: 320px;
+        height: 478px;
     }
     .header_logotype {
         max-width: 400px;
@@ -143,10 +149,13 @@
     }
 
 }
-@media (max-width: 340px) {
+@media (max-width: 350px) {
 
     .grid_header{
-        height: 250px;
+        height: 480px;
+    }
+    .grid_tarjet {
+        width: 40%;
     }
 
 
