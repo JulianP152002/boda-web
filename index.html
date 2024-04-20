@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="icon" type="image/svg+xml" href="/accents/imgs/imgheader.jpeg"/>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap" rel="stylesheet">
     <title>Invitacion Boda</title>
 </head>
 
@@ -20,7 +25,7 @@
         <section class="main_grid">
             <header class="grid">
                 <div class="grid_container-img">
-                    <Image class="grid_img" src="accents/imgs/imgheader.jpeg" alt="Imagen de Pareja" />
+                    <img class="grid_img" src="accents/imgs/imgheader.jpeg" alt="Imagen de Pareja" />
                 </div>
                 <div class="grid_header">
                     <div class="header_logotype">
@@ -68,9 +73,21 @@
 
                 </div>
             </div>
-            <div class="grid_imgs">
+            <div class="grid_imgs" >
                 <img class="img1" src="accents/imgs/img1cont.jpeg" alt="imagen 1"></img>
                 <img class="img2" src="accents/imgs/img2count.jpeg" alt="imagen2"></img>
+            </div>
+
+        </section>
+        <section class="container">
+            <div class="grid_imgs" id="grid_2">
+               
+                <img class="img1" id="imgs2" src="accents/imgs/imgmanos.jpeg" alt="imagen 1"></img>
+                
+            </div>
+            <div class="grid_imgs" id="grid_2">
+                 <img class="img1"  id="imgs2"src="accents/imgs/corazon.jpeg" alt="imagen 1"></img>
+                
             </div>
 
         </section>
@@ -185,7 +202,7 @@
                     </div>
                     <h2>Codigo de Vestimenta</h2>
                     <p>Formal</p>
-                    <p class="clo_pa">Mujeres de Largo <span>|</span> Hombres de traje</p>
+                    
                 </div>
 
 
@@ -193,11 +210,15 @@
         </section>
 
         <section class="grid_form">
-            <div class="form_imgs">
-                <img src="../public/imgs/florRight" alt="" />
-                <img src="../public/imgs/florleft" alt="" />
+            <div class="background">
+                <img src="accents/imgs/imagen5.jpeg" alt="">
             </div>
-            <h1 class="form_title">Confirma tu Asistencia</h1>
+            <div class="background-botton">
+                <img src="accents/imgs/imagen5.jpeg" alt="">
+            </div>
+
+            <div >
+                <h1 class="form_title">Confirma tu Asistencia</h1>
             <div class="container_form">
                 <form action="https://script.google.com/macros/s/AKfycbwlx_TvNxTC21aOa5r07uDroswrcL0-4I3NpOXi5MVZZjNUI-Z3MoM_3OFSKq7vEm9_/exec" class="form_form" method="POST" name="contact-form">
                     <div class="input-box">
@@ -222,9 +243,11 @@
                         <textarea class="form_texta" required name="message" cols="30" rows="10" placeholder="Mensaje Para Los Novios"></textarea>
                     </div>
 
-                    <input class="form_button" id="submit" value="Submit" type="submit"></input>
+                    <button class="form_button" id="submit" value="Submit" type="submit">Enviar Respuesta</button>
                 </form>
             </div>
+            </div>
+            
         </section>
     </div>
 <script src="script.js"></script>

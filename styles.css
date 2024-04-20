@@ -1,6 +1,6 @@
 :root {
     --color_description: #F5F4F4;
-    --color_title: #701e8c;
+    --color_title: #c764e8;
     --bacgroung_color: #798B97;
     --bacgroud_tarjet: #F5F4F4;
 }
@@ -10,9 +10,10 @@ body {
     width: 100%;
     height: 100%;
     background-color: var(--color_primari);
+    
 }
 h1, h2, h3, h4{
-    font-family: 'Birthstone', cursive;
+    font-family: "Great Vibes", cursive;
 }
 
 html {
@@ -22,6 +23,20 @@ html {
 
 /*header*/
 
+#imgs2{
+    border-radius: 10px;
+}
+#grid_2{
+    justify-content: center;
+}
+.img2-top{
+    
+    right: 20px;
+    bottom: 35px;
+    right: 92px;
+}
+
+/*puerubas*/
 .main{
     margin: auto;
     position: relative;
@@ -43,6 +58,9 @@ body {
 }
 
 .grid_header {
+    background-image: url(accents/imgs/headerbac.jpeg);
+    background-repeat: repeat;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,11 +122,14 @@ body {
 }
 
 .content_container h1 {
+    font-family: "Great Vibes", cursive;
     color: var(--color_title);
     font-size: 50px;
     font-weight: 200;
     margin-bottom: 10px;
     text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-weight: 600;
 }
 
 .content_text {
@@ -235,6 +256,7 @@ body {
 
 .boda_title,
 .title_pathers {
+    font-family: "Great Vibes", cursive;
     font-size: 30px;
     color: var(--color_title);
 }
@@ -278,6 +300,7 @@ body {
 }
 
 .intinerario_title {
+    font-family: "Great Vibes", cursive;
     font-size: 60px;
     width: 100%;
     color: var(--color_title);
@@ -417,9 +440,12 @@ body {
 .form_title{
     color: #701e8c;
     font-size: 12px;
+    filter: drop-shadow(-9px 5px 3px #701e8c);
+    
 }
 
 .grid_form {
+    position: relative;
     width: 100%;
     margin-top: 2rem;
     position: relative;
@@ -428,6 +454,36 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 4rem;
+}
+.background{
+    position: absolute;
+    display: block;
+    top: -78px;
+    left: 0;
+    max-width: 400px;
+    transition: all 300ms ease-in-out;
+
+}
+
+.background-botton{
+    position: absolute;
+    display: block;
+    bottom: -200px;
+    right: 0;
+    max-width: 400px;
+    transition: all 300ms ease-in-out;
+}
+.background-botton:hover{
+    transform: scale(110%);
+
+}
+.background-botton img{
+    transform: rotate(160deg);
+    z-index: -10;
+}
+.background img{
+    transform: rotate(160deg);
+    z-index: -10;
 }
 
 .form_title{
@@ -441,7 +497,9 @@ body {
 .form_form {
     width: 600px;
     margin-top: 1rem;
+    
 }
+
 
 .form_form .input-box {
     display: flex;
