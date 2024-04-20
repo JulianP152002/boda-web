@@ -63,7 +63,7 @@
     .main{
         margin: auto;
         position: relative;
-        width: 100%;
+        width: 125%;
     }
     .main_grid,
     .container,
@@ -107,5 +107,21 @@
     }
     .grid_tarjet {
         width: 75%;
+    }
+}
+
+@media (max-width: 500px) {
+    .main{
+        width: 150%;
+    }
+    .tajet{
+        height: 250px;
+    }
+    .tarjet_content{
+        width: 50%;
+    }
+    .form_form {
+        margin-left: -15px;
+        width: 400px;
     }
 }
