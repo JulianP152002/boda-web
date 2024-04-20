@@ -128,3 +128,17 @@
         height: 550px;
     }
 }
+
+@media (max-width: 380px) {
+
+    .grid_header{
+        height: 332px;
+    }
+    .header_logotype {
+        max-width: 400px;
+
+    }
+    .header_music{
+        margin-top: 0;
+    }
+}
