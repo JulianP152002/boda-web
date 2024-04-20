@@ -112,7 +112,7 @@
 
 @media (max-width: 480px) {
     .main{
-        width: 150%;
+        width: 148%;
     }
     .tajet{
         height: 250px;
@@ -125,6 +125,6 @@
         width: 400px;
     }
     .grid_img{
-        height: 650px;
+        height: 550px;
     }
 }
