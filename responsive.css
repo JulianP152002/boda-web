@@ -95,6 +95,9 @@
     .boda_content{
         font-size: 18px;
     }
+    .grid_header{
+        height: 350px;
+    }
 }
 @media (max-width: 600px) {
     
