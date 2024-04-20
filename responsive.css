@@ -110,7 +110,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
     .main{
         width: 150%;
     }
@@ -123,5 +123,8 @@
     .form_form {
         margin-left: -15px;
         width: 400px;
+    }
+    .grid_img{
+        height: 650px;
     }
 }
