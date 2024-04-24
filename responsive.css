@@ -13,6 +13,9 @@
 
 
 @media (max-width: 900px){
+    .container_content{
+        padding-top: 20px;
+    }
     .grid_header {
 
         height: 349px;

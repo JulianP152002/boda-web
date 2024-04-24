@@ -135,7 +135,17 @@ body {
     margin-bottom: 15px;
     font-size: 20px;
     font-weight: 600;
-    filter: drop-shadow(-9px 6px 4px #c49320);
+    filter: drop-shadow(-9px 6px 4px #aa4ed5);
+}
+.fecha_content{
+    font-size: 40px;
+    color: #701e8c;
+}
+.fecha_content span{
+    color: black;
+    top: -5px;
+    left: -5px;
+    font-weight: 200;
 }
 
 .content_count {
