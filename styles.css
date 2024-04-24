@@ -132,7 +132,10 @@ body {
 }
 
 .content_text {
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    filter: drop-shadow(-9px 6px 4px #c49320);
 }
 
 .content_count {
