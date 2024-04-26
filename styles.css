@@ -525,7 +525,7 @@ body {
 
 .form_form .input-box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -534,6 +534,7 @@ body {
     margin: 0rem 0.4rem 0rem 0rem;
 }
 .field .item {
+    padding: 5px;
     width: 100%;
     padding-left: 10px;
     border: none;
